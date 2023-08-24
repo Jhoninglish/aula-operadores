@@ -1,0 +1,60 @@
+// this is a js file
+// João Vítor da Silva Rosa
+/*
+
+//1. resposta
+const bool1 = true - ele ira declarar que o bool1 é true.
+const bool2 = false - ele ira declarar que o bool2 é false.
+const bool3 = !bool2 - agora fará uma declaração contraria de bool2.
+let resultado = bool1 && bool2 - será feita uma "comparação" dos dois: true + false resultará em false.
+console.log("a. ", resultado) - mostrará no console o resultado da "comparação" A que é false.
+resultado = bool1 && bool2 && bool3 - fará uma declaração das três bools.
+console.log("b. ", resultado) - as três resultarão em false.
+resultado = !resultado && (bool1 || bool2) - fará a declaração das duas bools.
+console.log("c. ", resultado) - o resultado será true.
+console.log("d. ", typeof resultado) - e o resultado final será boolean.
+
+// 2. resposta
+let primeiroNumero = Number(prompt("Digite um numero!"));
+let segundoNumero = Number(prompt("Digite outro numero!"));
+const soma = primeiroNumero + segundoNumero;
+console.log(soma);
+
+A programação que ele criou funciona, mas a soma está saindo incorretamente.
+Ao invez de somar como ex: 1 + 2 = 3 ele soma 1 + 2 = 12, precisa idicionar o metodo Number.
+
+// 3. resposta
+
+let idade = Number(prompt("Qual a sua idade?"));
+let idadeAmigo =  Number(prompt("Qual a idade do seu amigo?"));;
+console.log("Sua idade é maior do que a do seu melhor amigo?", (idade > idadeAmigo));
+console.log(idade - idadeAmigo);
+
+// 4. resposta
+
+let numeroPar = Number(prompt("Digite um numero par!"));
+console.log(numeroPar % 2);
+console.log(numeroPar / 2);
+
+O que eu vi nesse código é que se eu escrever um número impar ou ele é quebrado
+ou o resultado fica zero.
+
+let Idade = Number(prompt("Qual a sua idade em anos?"));
+console.log(Idade);
+let idadeMeses = Idade * 12;
+console.log(idadeMeses);
+let idadeDias = idadeMeses * 30;
+let idadeHoras = idadeDias * 24;
+console.log(idadeDias);
+console.log(idadeHoras);
+
+// 4. resposta
+
+let numero1 = Number(prompt("Digite um numero"));
+let numero2 = Number(prompt("Digite outro numero"));
+console.log(("O primeiro numero é maior que o segundo?", numero1 > numero2));
+console.log(("O primeiro numero é igual ao segundo?", numero1 === numero2));
+console.log(("O primeiro numero é igual ao segundo?", numero1 % numero2));
+console.log(("O primeiro numero é igual ao segundo?", numero1 % numero2));
+
+*/
